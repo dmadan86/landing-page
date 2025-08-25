@@ -12,11 +12,10 @@ const Logo = ({ className = '' }: LogoProps) => {
     <Link href="/" className={`flex items-center ${className}`}>
       <div className="w-36 h-auto md:w-44 lg:w-48">
         <Image 
-          src="/images/logo.png" 
+          src="/images/logo_small.png" 
           alt="CoreSight Logo" 
-          width={400}
-          height={400}
-          className="w-full h-auto"
+          width={150}
+          height={100}
           priority
         />
       </div>
