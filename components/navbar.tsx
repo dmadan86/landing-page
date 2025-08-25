@@ -82,7 +82,7 @@ const Navbar = () => {
               </Button>
             </Link>
             
-            <Link href="https://community.digitalagents.io" target="_blank" rel="noopener noreferrer">
+            <Link href="https://community.coresight.net" target="_blank" rel="noopener noreferrer">
               <Button 
                 variant="ghost" 
                 className="px-3 rounded-full text-gray-700 hover:text-gray-900"
@@ -103,7 +103,7 @@ const Navbar = () => {
 
           {/* Login/Register Buttons */}
           <div className="hidden md:flex md:items-center md:space-x-3">
-            <Link href="https://app.CoreSight.co/login">
+            <Link href="https://app.coresight.net/login">
               <Button 
                 variant="outline"
                 className="rounded-full border-gray-300"
@@ -111,7 +111,7 @@ const Navbar = () => {
                 Login
               </Button>
             </Link>
-            <Link href="https://app.CoreSight.co/register">
+            <Link href="https://app.coresight.net/register">
               <Button 
                 className="rounded-full shadow-button bg-[#10172A] hover:bg-opacity-90 text-white"
               >
@@ -173,7 +173,7 @@ const Navbar = () => {
                   ROI Calculator
                 </Link>
                 <Link 
-                  href="https://community.digitalagents.io" 
+                  href="https://community.coresight.net" 
                   className="block px-4 py-2 hover:bg-gray-50 rounded-lg"
                   onClick={toggleMenu}
                   target="_blank" 
@@ -193,7 +193,7 @@ const Navbar = () => {
               <div className="border-t border-gray-100 my-2"></div>
               
               <div className="p-2 pt-0 space-y-3">
-                <Link href="https://app.CoreSight.co/login" onClick={toggleMenu}>
+                <Link href="https://app.coresight.net/login" onClick={toggleMenu}>
                   <Button 
                     variant="outline"
                     className="w-full rounded-lg border-gray-300 mb-4 sm:mb-0"
@@ -201,7 +201,7 @@ const Navbar = () => {
                     Login
                   </Button>
                 </Link>
-                <Link href="https://app.CoreSight.co/register" onClick={toggleMenu}>
+                <Link href="https://app.coresight.net/register" onClick={toggleMenu}>
                   <Button 
                     className="w-full rounded-lg bg-[#10172A] hover:bg-opacity-90 text-white"
                   >

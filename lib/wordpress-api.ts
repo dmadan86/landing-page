@@ -77,7 +77,7 @@ export async function fetchAPI(
 ) {
   try {
     const API_URL =
-      process.env.WORDPRESS_API_URL || "https://blogs.digitalagents.io";
+      process.env.WORDPRESS_API_URL || "https://blogs.coresight.net";
     const headers = { "Content-Type": "application/json" };
 
     const res = await fetch(`${API_URL}/graphql`, {

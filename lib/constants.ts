@@ -3,21 +3,21 @@ export const COMPANY_NAME = "CoreSight";
 export const COMPANY_DOMAIN = "digitalagents.ai";
 
 export const EXTERNAL_LINKS = {
-  community: "https://community.digitalagents.io",
+  community: "https://community.coresight.net",
 };
 
 export const CONTACT_INFO = {
   email: {
-    sales: "hello@CoreSight.co",
-    support: "support@digitalagents.io",
+    sales: "hello@coresight.net",
+    support: "support@coresight.net",
   },
-  phone: "+1 (415) 570 8910",
+  phone: "",
   address: {
-    company: "CoreSight LLC",
-    street: "254 Chapman Rd",
-    city: "Newark",
-    state: "DE",
-    zip: "19702",
+    company: "",
+    street: "",
+    city: "",
+    state: "",
+    zip: "",
   },
 };
 

@@ -54,7 +54,7 @@ export default function HeroSection() {
             </p>
 
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8 animate-fadeInUp animation-delay-200">
-              <Link href="https://app.CoreSight.co/register" className="w-10/12 sm:w-auto">
+              <Link href="https://app.coresight.net/register" className="w-10/12 sm:w-auto">
                 <Button
                   size="lg"
                   className="rounded-full shadow-lg bg-primary-700 hover:bg-primary-800 text-white transition-all duration-300 hover:shadow-primary-700/20 hover:shadow-xl w-full"
@@ -64,7 +64,7 @@ export default function HeroSection() {
                 </Button>
               </Link>
 
-              <Link href="https://app.CoreSight.co/login" className="w-10/12 sm:w-auto">
+              <Link href="https://app.coresight.net/login" className="w-10/12 sm:w-auto">
                 <Button
                   variant="outline"
                   size="lg"

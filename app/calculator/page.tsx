@@ -370,7 +370,7 @@ export default function ROICalculatorPage() {
                       </div>
                       
                       <div className="pt-4 space-y-3">
-                        <Link href="https://app.CoreSight.co/register">
+                        <Link href="https://app.coresight.net/register">
                           <Button className="w-full bg-primary-700 hover:bg-primary-800 text-white" size="lg">
                             Start Your Free Trial
                           </Button>

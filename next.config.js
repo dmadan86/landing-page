@@ -6,11 +6,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'blogs.digitalagents.io',
+        hostname: 'blogs.coresight.net',
       },
       {
         protocol: 'http',
-        hostname: 'blogs.digitalagents.io',
+        hostname: 'blogs.coresight.net',
       },
       {
         protocol: 'https',

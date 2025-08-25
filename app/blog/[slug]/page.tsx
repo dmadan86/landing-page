@@ -161,7 +161,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
               <div className="sticky top-24 space-y-4">
                 <ShareButtons 
                   title={post.title}
-                  url={`https://digitalagents.io/blog/${post.slug}`}
+                  url={`https://coresight.net/blog/${post.slug}`}
                   variant="vertical"
                   showLabel={true}
                 />
@@ -201,7 +201,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
                   <h3 className="text-lg font-bold mb-4">Share this post</h3>
                   <ShareButtons 
                     title={post.title}
-                    url={`https://digitalagents.io/blog/${post.slug}`}
+                    url={`https://coresight.net/blog/${post.slug}`}
                     variant="horizontal"
                   />
                 </div>

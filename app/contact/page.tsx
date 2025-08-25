@@ -76,7 +76,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-medium text-gray-900 mb-1">Address</h3>
-                        <p className="text-gray-600">
+                        <p className="text-gray-600 d-none">
                           {CONTACT_INFO.address.company}<br />
                           {CONTACT_INFO.address.street}<br />
                           {CONTACT_INFO.address.city}, {CONTACT_INFO.address.state} {CONTACT_INFO.address.zip}

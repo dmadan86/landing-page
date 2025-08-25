@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://digitalagents.io',
+    url: 'https://coresight.net',
     siteName: 'CoreSight',
     title: "CoreSight | Your Sales Team’s 24/7 Coach and Practice Partner",
     description: 'Transform your team with AI agents that provide personalized coaching, structured evaluations, and continuous learning.',
@@ -87,7 +87,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#10172A" />
-        <link rel="canonical" href="https://digitalagents.io" />
+        <link rel="canonical" href="https://coresight.net" />
         <script dangerouslySetInnerHTML={{ __html: `
           window.__NEXT_HYDRATION_MARKER__ = true;
           document.documentElement.classList.add('hydration-pending');

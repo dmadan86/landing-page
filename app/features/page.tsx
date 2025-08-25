@@ -54,7 +54,7 @@ export default function FeaturesPage() {
               CoreSight combines powerful AI with intuitive interfaces to
               deliver a complete talent development solution.
             </p>
-            <Link href="https://app.CoreSight.co/register">
+            <Link href="https://app.coresight.net/register">
               <Button
                 size="lg"
                 className="rounded-full shadow-md bg-primary-700 hover:bg-primary-800 text-white transition-all duration-300 hover:shadow-lg group"
@@ -267,7 +267,7 @@ export default function FeaturesPage() {
               our team.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Link href="https://app.CoreSight.co/register">
+              <Link href="https://app.coresight.net/register">
                 <Button
                   size="lg"
                   className="rounded-full shadow-md bg-white text-primary-700 hover:bg-gray-100 transition-all duration-300 group"

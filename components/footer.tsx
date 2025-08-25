@@ -155,7 +155,7 @@ const Footer = () => {
                   {CONTACT_INFO.phone}
                 </a>
               </li>
-              <li className="text-gray-600 text-sm">
+              <li className="text-gray-600 text-sm d-none">
                 {CONTACT_INFO.address.company}<br />
                 {CONTACT_INFO.address.street}<br />
                 {CONTACT_INFO.address.city}, {CONTACT_INFO.address.state} {CONTACT_INFO.address.zip}
@@ -170,7 +170,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-200 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-sm text-gray-500">
-            &copy; {currentYear} <Link href={`https://CoreSight.co/`}  className="underline-offset-4 hover:underline" target="_blank">CoreSight</Link> LLC. All rights reserved.
+            &copy; {currentYear} <Link href={`https://coresight.net/`}  className="underline-offset-4 hover:underline" target="_blank">CoreSight</Link> LLC. All rights reserved.
           </p>
           <div className="mt-4 sm:mt-0">
             <ul className="flex space-x-6">

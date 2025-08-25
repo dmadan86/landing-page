@@ -193,7 +193,7 @@ export default function PrivacyPolicyPage() {
                     </div>
                     <div>
                       <h2 className="text-xl font-bold mb-2">10. Contact Us</h2>
-                      <p>If you have any questions about this Privacy Policy, please contact us at <Link href="mailto:growth@digitalagents.io" className="text-blue-600 hover:underline">growth@digitalagents.io</Link>.</p>
+                      <p>If you have any questions about this Privacy Policy, please contact us at <Link href="mailto:growth@coresight.net" className="text-blue-600 hover:underline">growth@coresight.net</Link>.</p>
                     </div>
                   </div>
                 </div>

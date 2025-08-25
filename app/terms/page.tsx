@@ -174,7 +174,7 @@ export default function TermsPage() {
                   <div>
                     <h2 className="text-xl font-bold mb-2">8. Contact Us</h2>
                     <p>
-                      If you have any questions about these Terms, please contact us at <Link href="mailto:growth@digitalagents.io" className="text-blue-600 hover:underline">growth@digitalagents.io</Link>.
+                      If you have any questions about these Terms, please contact us at <Link href="mailto:growth@coresight.net" className="text-blue-600 hover:underline">growth@coresight.net</Link>.
                     </p>
                   </div>
                 </div>

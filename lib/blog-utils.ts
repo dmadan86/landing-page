@@ -77,7 +77,7 @@ export function prepareHtmlContent(content: string): string {
   const contentWithTargetBlank = content.replace(
     /<a\s+(?:[^>]*?\s+)?href="(http[^"]*)"([^>]*)>/gi,
     (match, url, rest) => {
-      if (url.includes("digitalagents.io")) {
+      if (url.includes("coresight.net")) {
         return `<a href="${url}"${rest}>`;
       }
 

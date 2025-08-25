@@ -116,7 +116,7 @@ export default function PricingPage() {
                 </div>
                 
                 <div className="flex flex-col sm:flex-row items-center gap-4 justify-center">
-                  <Link href="https://app.CoreSight.co/register">
+                  <Link href="https://app.coresight.net/register">
                     <Button 
                       size="lg" 
                       className="w-full sm:w-auto px-8 rounded-full shadow-md bg-primary-700 hover:bg-primary-800 text-white transition-all duration-300"
@@ -405,7 +405,7 @@ export default function PricingPage() {
               Start your 7-day trial today and see the difference CoreSight can make.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Link href="https://app.CoreSight.co/register">
+              <Link href="https://app.coresight.net/register">
                 <Button 
                   size="lg" 
                   className="rounded-full shadow-md bg-white text-primary-700 hover:bg-gray-100"
